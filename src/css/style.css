@@ -229,3 +229,17 @@
     width: 80%;
     color: #777;
 }
+
+
+@media screen and (max-width: 576px) {
+    .fs-row-conatiner,.stc-courses-container{
+      display: block;
+    }
+  }
+
+  @media screen and (max-width: 576px) {
+    .uw-list-container li a{
+      padding: -70px;
+      margin-left: -10px;
+    }
+  }
